@@ -19,13 +19,13 @@ const AuthLinks = async () => {
             <AdminCart session={session} />
           ) : (
             <Link href={'/shopping-cart'}>
-              <FiShoppingCart className='h-6 w-6 hover:text-gray-400' />
+              <FiShoppingCart className='h-6 w-6 hover:text-gray-400 cursor-pointer hover:translate-y-[-2px] transition-transform duration-300' />
             </Link>
           )}
         <div className='flex '>
         <Link 
-        className=''
-        href='/profile'>
+        className='cursor-pointer hover:translate-y-[-2px] transition-transform duration-300'
+        href='/'>
             <Avatar imageUrl={session.user.image} alt={session.user.name} />
           </Link>
           <LogoutButton />

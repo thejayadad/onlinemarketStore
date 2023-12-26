@@ -7,7 +7,7 @@ const AdminCart = ({session}) => {
     <>
     {session.user.email === 'thejayadad@gmail.com' ? (
       <Link 
-      className='links'
+      className='links '
       href={'/admin'}>
         <span>Admin</span>
       </Link>
