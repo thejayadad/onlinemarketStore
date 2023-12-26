@@ -22,7 +22,7 @@ const AuthLinks = async () => {
               <FiShoppingCart className='h-6 w-6 hover:text-gray-400' />
             </Link>
           )}
-        <div className='flex gap-2'>
+        <div className='flex '>
         <Link 
         className=''
         href='/profile'>

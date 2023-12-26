@@ -10,7 +10,7 @@ const LogoutButton = () => {
       onClick={() => signOut()}
     >
       <span
-      className='hover:text-gray-900 text-gray-400'
+      className='links'
       >Logout</span>
       <FiLogOut />
     </button>
